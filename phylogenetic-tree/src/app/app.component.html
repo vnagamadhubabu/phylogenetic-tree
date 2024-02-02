@@ -1,0 +1,10 @@
+
+<form style="font: 12px var(--sans-serif); display: flex; flex-direction: column; justify-content: center; min-height: 33px;">
+  <label style="display: flex; align-items: center;">
+    <input type="checkbox" name="i" (change)="onCheckboxChange($event)">
+    <span style="margin-left: 0.5em;">Show branch length</span>
+  </label>
+</form>
+<figure id="svg" #svg></figure>
+
+<router-outlet></router-outlet>
